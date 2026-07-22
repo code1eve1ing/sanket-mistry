@@ -74,16 +74,25 @@ export default function Projects() {
 
                             <div className="mt-6 flex items-center gap-3 pt-4 border-t border-border">
                                 <a
-                                    href="#"
+                                    href={p.demo_link}
+                                    target="_blank"
                                     className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
                                 >
                                     <ExternalLink className="h-3.5 w-3.5" /> Live demo
                                 </a>
                                 <a
-                                    href="#"
+                                    href={p.repo_client_link}
+                                    target="_blank"
                                     className="inline-flex items-center gap-1.5 text-sm font-medium text-foreground/80 hover:text-foreground"
                                 >
-                                    <Github className="h-3.5 w-3.5" /> GitHub
+                                    <Github className="h-3.5 w-3.5" /> Client
+                                </a>
+                                <a
+                                    href={p.repo_server_link}
+                                    target="_blank"
+                                    className="inline-flex items-center gap-1.5 text-sm font-medium text-foreground/80 hover:text-foreground"
+                                >
+                                     Server
                                 </a>
                             </div>
                         </div>

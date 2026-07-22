@@ -10,7 +10,7 @@ const techStack = [
   {
     title: "Backend",
     icon: Server,
-    items: ["Node.js", "Express.js", "NestJS", "BullMQ", "REST APIs", "WebSockets"],
+    items: ["Node.js", "Express.js", "NestJS", "BullMQ", "REST APIs", " Socket.IO", "JWT Authentication", "RBAC Authorization", "OAuth 2.0",],
   },
   {
     title: "Frontend",
@@ -25,12 +25,12 @@ const techStack = [
   {
     title: "DevOps & Cloud",
     icon: Cloud,
-    items: ["AWS (EC2, RDS, S3)", "CI/CD", "Docker"],
+    items: ["AWS (EC2, S3)", "CI/CD"],
   },
   {
-    title: "Architecture & Tools",
+    title: "Others",
     icon: Cpu,
-    items: ["Microservices", "Linux", "Git / GitHub"],
+    items: ["Git", "GitHub"],
   },
 ];
 
@@ -65,7 +65,7 @@ export default function TechStack() {
       <div className="mt-6 flex flex-wrap items-center gap-2 rounded-2xl border border-dashed border-border bg-card/50 p-5 text-sm text-muted-foreground">
         <Sparkles className="h-4 w-4 text-primary" />
         <span className="font-medium text-foreground">Currently learning:</span>
-        {["Go", "Python", "Docker", "Kubernetes"].map((t) => (
+        {["Microservices Architecture", "Docker", "Kubernetes"].map((t) => (
           <span
             key={t}
             className="inline-flex items-center rounded-full bg-accent px-2.5 py-0.5 text-xs text-accent-foreground"

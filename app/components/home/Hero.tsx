@@ -14,16 +14,16 @@ export default function Hero() {
       <div className="mx-auto max-w-6xl px-5 pt-20 pb-24 sm:pt-28 sm:pb-32">
         <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs text-muted-foreground">
           <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-          Open to backend & full-stack roles
+          Open to Backend & Full Stack roles
         </div>
         <h1 className="mt-6 text-4xl font-semibold tracking-tight sm:text-6xl">
           Sanket Mistry
         </h1>
         <p className="mt-4 text-xl text-foreground/80 sm:text-2xl">
-          Backend-Focused <span className="text-primary">Full Stack Developer</span>
+          Backend-Focused <span className="text-primary font-bold">Software Engineer</span>
         </p>
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-          3 years of experience building scalable web applications using React, Next.js,
+          2.5 years of experience building scalable web applications using React, Next.js,
           Node.js, NestJS, PostgreSQL, MongoDB, and TypeScript.
         </p>
         <div className="mt-8 flex flex-wrap items-center gap-3">

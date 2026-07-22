@@ -12,8 +12,6 @@ export default function Footer() {
         <div className="flex items-center gap-4">
           <a href={CONTACT.github} target="_blank" rel="noopener noreferrer" className="hover:text-foreground">GitHub</a>
           <a href={CONTACT.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-foreground">LinkedIn</a>
-          <a href={`mailto:${CONTACT.email}`} className="hover:text-foreground">Email</a>
-          <a href={CONTACT.resume} download className="hover:text-foreground">Resume</a>
         </div>
       </div>
     </footer>
