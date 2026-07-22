@@ -8,11 +8,11 @@ const experience = [
     location: "Ahmedabad, Gujarat",
     period: "Jun 2025 — Jun 2026",
     points: [
-      "Built RESTful APIs using Node.js, NestJS, and Express.js to support CRUD operations, enabling seamless frontend-backend communication",
-      "Optimized application performance through PostgreSQL database indexing, API caching, and frontend optimization techniques, significantly reducing response times",
+      "Built 25+ RESTful APIs using Node.js, NestJS, and Express.js, enabling seamless frontend-backend communication",
+      "Optimized application performance through PostgreSQL indexing, API caching, and frontend optimizations, reducing response times by up to 50%",
       "Integrated AI-powered capabilities using OpenAI, Claude, and Gemini APIs to automate business workflows and enhance application intelligence",
       "Implemented JWT-based authentication and role-based authorization, strengthening application security and user access management",
-      "Used Git for version control and contributed to Agile sprint planning, ensuring timely completion of assigned development tasks",
+      "Used Git for version control and contributed to Agile development, ensuring the timely delivery of features and bug fixes",
     ],
   },
   {
