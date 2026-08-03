@@ -23,7 +23,7 @@ export default function Hero() {
           Backend-Focused <span className="text-primary font-bold">Software Engineer</span>
         </p>
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-          2.5 years of experience building scalable web applications using Node.js, NestJS, Express.js, TypeScript, React, Next.js, PostgreSQL, and MongoDB.
+          3 years of experience building scalable web applications using Node.js, Python, Django, FastAPI, NestJS, Express.js, TypeScript, React, Next.js, PostgreSQL, and MongoDB.
         </p>
         <div className="mt-8 flex flex-wrap items-center gap-3">
           <a

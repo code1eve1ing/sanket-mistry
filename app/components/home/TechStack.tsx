@@ -5,12 +5,12 @@ const techStack = [
   {
     title: "Languages",
     icon: Code2,
-    items: ["JavaScript (ES6+)", "TypeScript"],
+    items: ["Python", "JavaScript", "TypeScript"],
   },
   {
     title: "Backend",
     icon: Server,
-    items: ["Node.js", "Express.js", "NestJS", "BullMQ", "REST APIs", " Socket.IO", "JWT Authentication", "RBAC Authorization", "OAuth 2.0",],
+    items: ["Node.js", "Express.js", "NestJS", "Django", "FastAPI", "BullMQ", "REST APIs", " Socket.IO", "JWT Authentication", "RBAC Authorization", "OAuth 2.0",],
   },
   {
     title: "Frontend",

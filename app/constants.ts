@@ -17,7 +17,7 @@ export const CONTACT = {
 export const PROJECTS = [
     {
         name: "SalonHost (In Progress)",
-        demo_link: "https://x-salon-client-v1.vercel.app/",
+        demo_link: "https://x-salon-client-v1.vercel.app",
         repo_client_link: "https://github.com/code1eve1ing/salonhost-client",
         repo_server_link:"https://github.com/code1eve1ing/salonhost-server",
         tagline: "Create a professional salon website in minutes — no coding required",

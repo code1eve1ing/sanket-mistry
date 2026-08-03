@@ -3,7 +3,7 @@ import Section from "../common/Section";
 
 const experience = [
   {
-    company: "Albiorix Technology Pvt. Ltd.",
+    company: "Albiorix Technology",
     role: "Software Engineer",
     location: "Ahmedabad, Gujarat",
     period: "Jun 2025 — Jun 2026",
@@ -16,7 +16,17 @@ const experience = [
     ],
   },
   {
-    company: "Rayo Innovations Pvt. Ltd.",
+    company: "Techify Solutions",
+    role: "Software Engineer",
+    location: "Ahmedabad, Gujarat",
+    period: "Feb 2025 — May 2025",
+    points: [
+      "Developed high-performance web applications using Next.js, React, and TypeScript, leveraging component-based architecture for scalable and maintainable codebases",
+      "Designed and managed PostgreSQL database schemas, ensuring data integrity through normalized table structures, constraints, and relationships",
+    ],
+  },
+  {
+    company: "Rayo Innovations",
     role: "Software Developer",
     location: "Ahmedabad, Gujarat",
     period: "Nov 2023 — Jan 2025",
@@ -29,10 +39,10 @@ const experience = [
     ],
   },
   {
-    company: "Rayo Innovations Pvt. Ltd.",
+    company: "Rayo Innovations",
     role: "Software Developer Intern",
     location: "Ahmedabad, Gujarat",
-    period: "Jul 2023 — Oct 2023",
+    period: "Jul 2023 — Nov 2023",
     points: [
       "Built RESTful APIs with Node.js and Express.js, enabling secure and efficient communication between frontend and backend systems",
       "Developed responsive user interface components using React.js, improving application usability and ensuring a consistent experience across desktop and mobile devices",
