@@ -15,7 +15,7 @@ export default function Page() {
         <Hero />
         <About />
         <TechStack />
-        <Projects />
+        {/* <Projects /> */}
         <Experience/>
         <Contact/>
       </main>
