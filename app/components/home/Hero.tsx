@@ -23,15 +23,15 @@ export default function Hero() {
           Backend-Focused <span className="text-primary font-bold">Software Engineer</span>
         </p>
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-          3 years of experience building scalable web applications using Node.js, Python, Django, FastAPI, NestJS, Express.js, TypeScript, React, Next.js, PostgreSQL, and MongoDB.
+          2.5 years of experience building scalable web applications using Node.js, Python, Django, NestJS, Express.js, TypeScript, React, Next.js, PostgreSQL, and MongoDB.
         </p>
         <div className="mt-8 flex flex-wrap items-center gap-3">
-          <a
+          {/* <a
             href="#projects"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
           >
             View projects <ArrowRight className="h-4 w-4" />
-          </a>
+          </a> */}
           <a
             href="#contact"
             className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-accent"

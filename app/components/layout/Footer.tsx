@@ -10,7 +10,7 @@ export default function Footer() {
           <span>Built by Sanket Mistry — {new Date().getFullYear()}</span>
         </div>
         <div className="flex items-center gap-4">
-          <a href={CONTACT.github} target="_blank" rel="noopener noreferrer" className="hover:text-foreground">GitHub</a>
+          {/* <a href={CONTACT.github} target="_blank" rel="noopener noreferrer" className="hover:text-foreground">GitHub</a> */}
           <a href={CONTACT.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-foreground">LinkedIn</a>
         </div>
       </div>

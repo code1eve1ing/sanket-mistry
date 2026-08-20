@@ -10,7 +10,7 @@ const techStack = [
   {
     title: "Backend",
     icon: Server,
-    items: ["Node.js", "Express.js", "NestJS", "Django", "FastAPI", "BullMQ", "REST APIs", " Socket.IO", "JWT Authentication", "RBAC Authorization", "OAuth 2.0",],
+    items: ["Node.js", "Express.js", "NestJS", "Django", "BullMQ", "REST APIs", " Socket.IO", "JWT Authentication", "RBAC", "OAuth 2.0",],
   },
   {
     title: "Frontend",
@@ -25,12 +25,12 @@ const techStack = [
   {
     title: "DevOps & Cloud",
     icon: Cloud,
-    items: ["AWS (EC2, S3)", "CI/CD"],
+    items: ["AWS (EC2, S3)", "Docker", "CI/CD"],
   },
   {
-    title: "Others",
+    title: "Testing & Tools",
     icon: Cpu,
-    items: ["Git", "GitHub"],
+    items: ["Jest", "Supertest", "React Testing Library", "Git", "GitHub", "Postman", "VS Code", "Cursor", "Zed"],
   },
 ];
 
@@ -62,7 +62,7 @@ export default function TechStack() {
           );
         })}
       </div>
-      <div className="mt-6 flex flex-wrap items-center gap-2 rounded-2xl border border-dashed border-border bg-card/50 p-5 text-sm text-muted-foreground">
+      {/* <div className="mt-6 flex flex-wrap items-center gap-2 rounded-2xl border border-dashed border-border bg-card/50 p-5 text-sm text-muted-foreground">
         <Sparkles className="h-4 w-4 text-primary" />
         <span className="font-medium text-foreground">Currently learning:</span>
         {["Microservices Architecture", "Docker", "Kubernetes"].map((t) => (
@@ -73,7 +73,7 @@ export default function TechStack() {
             {t}
           </span>
         ))}
-      </div>
+      </div> */}
     </Section>
   );
 }

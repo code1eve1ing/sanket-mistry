@@ -90,13 +90,13 @@ export default function Contact() {
               href={CONTACT.linkedin}
               external
             />
-            <ContactLink
+            {/* <ContactLink
               icon={Github}
               label="GitHub"
               value="github.com/code1eve1ing"
               href={CONTACT.github}
               external
-            />
+            /> */}
             
           </div>
         </div>
